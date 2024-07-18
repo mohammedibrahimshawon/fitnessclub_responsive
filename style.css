@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+.shape
+{
+          font-family: "Dancing Script", cursive;
+          font-optical-sizing: auto;
+          font-weight: <weight>;
+          font-style: normal;
+ }
+      
+      
+
+/* .btn{
+    background-color: #333;
+} */
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+.header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 1.5em;
+    color: #f04e23;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+.hero .container{
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+    
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    background-color: #f04e23;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.hero .btn1{
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    background-color:black;
+    color: #fff;
+    border-radius: 20px;
+    border-color: white;
+    cursor: pointer;
+    
+    font-weight: bold;
+}
+
+.hero .stats {
+    margin: 20px 0;
+}
+
+.hero-image {
+    max-width: 40%;
+    /* margin-left: 400px; */
+    
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Habits Section */
+.habits {
+    padding: 50px 0;
+}
+
+.habits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.habits-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.habit-item {
+    text-align: center;
+    margin: 20px;
+}
+
+.habit-item img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.habit-item h3 {
+    margin-top: 10px;
+}
+

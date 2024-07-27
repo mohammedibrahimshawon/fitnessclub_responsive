@@ -413,6 +413,11 @@ img {
 /* Team Section */
 .team {
     padding: 50px 0;
+    margin:10% ;
+}
+.team .container .pii{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .team h2 {
@@ -424,6 +429,10 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 18px;
+    margin: none;
     gap: 20px;
     display: grid;
     grid-template-columns:5.0fr 5.0fr 5.0fr;

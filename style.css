@@ -31,7 +31,7 @@ img {
 
 /* Header Styles */
 .header {
-    background-color: #000;
+    background-color: #333;
     padding: 20px 0;
 }
 
@@ -40,6 +40,9 @@ img {
     justify-content: space-between;
     align-items: center;
     font-style: italic;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
     
 }
 
@@ -52,6 +55,27 @@ img {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin: 0;
+}
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hide the menu toggle checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Styles for the hamburger menu */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
 }
 .menubtn{
     background-color: #f04e23;
@@ -551,6 +575,42 @@ footer p {
 }
 
 @media (max-width: 576px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: #333;
+        padding: 0;
+    }
+
+    .nav-links li {
+        text-align: center;
+        width: 100%;
+        border-bottom: 1px solid #444;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 10px;
+    }
+
+    /* Show the nav-links when the menu-toggle checkbox is checked */
+    .menu-toggle:checked + .hamburger + .nav-links {
+        display: flex;
+    }
+
+
+    
     .habits-content,
     .training-content,
     .team-content {
@@ -568,4 +628,5 @@ footer p {
     .team-member {
         width: 80%;
     }
+
 }

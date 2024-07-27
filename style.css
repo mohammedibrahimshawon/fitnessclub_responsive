@@ -254,9 +254,10 @@ img {
 .extra-mile .image {
     
     max-width: 40%;
-    border-radius: 18px;
+    margin-top:36px;
     width: 366px;
     height: 312px;
+
     transform: scale(1.5);
     transform-origin: 40% 20%;
     

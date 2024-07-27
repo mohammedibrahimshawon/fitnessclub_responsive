@@ -454,10 +454,20 @@ img {
 }
 
 .team-member h3 {
-    margin-top: 10px;
+    margin-top: none;
+    margin-bottom: none;
+    font-weight: bolder;
+    /* margin-top: 10px; */
+}
+
+.team-member p {
+    color:rgba(255, 255, 255, 0.5);
+    margin-top: none;
+
 }
 
 .team .container .team-content .team-member .caption{     
+
         position: absolute;
         bottom: 0;
         left: 0;
@@ -469,6 +479,8 @@ img {
         box-sizing: border-box;
     
 }
+
+
 
 /* Footer Styles */
 footer {
